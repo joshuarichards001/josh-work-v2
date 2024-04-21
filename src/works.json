@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Xero",
+    "time": "2020 - Present",
+    "description": "A Software Engineer building the New Invoicing platform.",
+    "link": "https://www.xero.com"
+  },
+  {
+    "name": "Hedges",
+    "time": "2021 - 2022",
+    "description": "Technical co-founder building a financial portfolio management mobile app.",
+    "link": "https://www.hedges.app"
+  },
+  {
+    "name": "CR Automation",
+    "time": "2018 - 2020",
+    "description": "An Engineering Intern tasked with building a business intelligence agent.",
+    "link": "https://www.crautomation.nz"
+  }
+]

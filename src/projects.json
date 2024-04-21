@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Piano Theory",
+    "description": "Where users can learn to play various chords and scales using a virtual piano.",
+    "link": "https://pianotheory.app"
+  },
+  {
+    "name": "Album Listen List",
+    "description": "Where users can aggregate all of the Spotify albums they plan to listen to.",
+    "link": "https://albumlistenlist.com"
+  },
+  {
+    "name": "Ticker Tracker",
+    "description": "A platform where users can aggregate all of their investments into one location.",
+    "link": "https://tickertracker.co"
+  }
+]
