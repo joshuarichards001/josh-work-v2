@@ -10,7 +10,7 @@ During my final year at university, I was diving deeper into investing and the o
 
 Ticker Tracker was the solution I had been looking for. A platform where you could view all of your assets together to see a snapshot of how they were performing. I shared the platform with several subreddits ([PersonalFinanceNZ](https://www.reddit.com/r/PersonalFinanceNZ/comments/nfys7y/tracking_your_whole_portfolio_made_easier/), [fiaustralia](https://www.reddit.com/r/fiaustralia/comments/njoox7/tracking_your_whole_portfolio_made_easier/), [ausstocks](https://www.reddit.com/r/ausstocks/comments/njopbp/tracking_your_whole_portfolio_made_easier/)) and received really positive feedback! I resolved a bunch of feature requests and bugs from the comments as they came up.
 
-![img](../images/hedges/tickertracker.png)
+![img](./images/hedges/tickertracker.png)
 
 Several people got in touch with me expressing support for or interest in Ticker Tracker.
 
@@ -30,7 +30,7 @@ The division of work boiled down to me handling software development while my pa
 
 Hedges was a complex full-stack platform built using React Native, NodeJS, PostgreSQL, and Heroku.
 
-![img](../images/hedges/hedges.png)
+![img](./images/hedges/hedges.png)
 
 Within about six months we had something functional that looked great but had a few bugs left to iron out. However, before getting the MVP in front of users we dropped the project. What happened?
 

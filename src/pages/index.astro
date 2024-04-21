@@ -3,6 +3,12 @@ import Layout from "../components/Layout.astro";
 
 import projects from "../projects.json";
 import works from "../works.json";
+
+import { getCollection } from "astro:content";
+
+const posts = (await getCollection("blog")).sort((a, b) =>
+  a.data.date < b.data.date ? 1 : -1,
+);
 ---
 
 <Layout title="Josh Richards" description="Josh Richards personal website">
@@ -50,5 +56,25 @@ import works from "../works.json";
         ))
       }
     </div>
+  </section>
+  <section class="mt-12">
+    <h2 class="mb-4 text-2xl font-semibold">Blog</h2>
+    {
+      posts.map((post) => {
+        return (
+          <article class="mb-4">
+            <h3 class="w-fit ">
+              <a
+                href={`/blog/${post.slug}`}
+                class="hover:text-blue-500 hover:underline"
+              >
+                {post.data.title}
+              </a>
+            </h3>
+            <p class="text-sm text-zinc-400">{post.data.description}</p>
+          </article>
+        );
+      })
+    }
   </section>
 </Layout>
