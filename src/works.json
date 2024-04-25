@@ -2,19 +2,19 @@
   {
     "name": "Xero",
     "time": "2020 - Present",
-    "description": "A Software Engineer building the New Invoicing platform.",
+    "description": "A Software Engineer at the cloud accounting company Xero. I develop full stack, secure, scalable code that powers the Invoicing platform. Our mission is to help the hundreds of thousands of small business Xero customers get paid.",
     "link": "https://www.xero.com"
   },
   {
     "name": "Hedges",
     "time": "2021 - 2022",
-    "description": "Technical co-founder building a financial portfolio management mobile app.",
+    "description": "The technical co-founder for a financial portfolio management mobile app. Hedges was envisioned to help users track their investments and net worth. I was responsible for building the mobile app and backend services from scratch.",
     "link": "https://www.hedges.app"
   },
   {
     "name": "CR Automation",
     "time": "2018 - 2020",
-    "description": "An Engineering Intern tasked with building a business intelligence agent.",
+    "description": "An Engineering Intern at the automation engineering firm CR Automation. I was tasked with building a business intelligence agent that would send and receive data from multiple sources concurrently.",
     "link": "https://www.crautomation.nz"
   }
 ]

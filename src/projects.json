@@ -1,17 +1,20 @@
 [
   {
-    "name": "Piano Theory",
-    "description": "Where users can learn to play various chords and scales using a virtual piano.",
-    "link": "https://pianotheory.app"
-  },
-  {
     "name": "Album Listen List",
-    "description": "Where users can aggregate all of the Spotify albums they plan to listen to.",
+    "date": "2023",
+    "description": "A place for users to aggregate all of the Spotify albums they plan to listen to, rate their favourites, and share their list with friends. Album Listen List gets over 150 monthly users with over 500 registered users. It was built using React, Firebase, and Spotify Auth.",
     "link": "https://albumlistenlist.com"
   },
   {
+    "name": "Piano Theory",
+    "date": "2024",
+    "description": "An app where users can learn to play various chords and scales using a virtual piano. Piano Theory has over 500 unique visitors and was built with React, Tailwind, and Redux.",
+    "link": "https://pianotheory.app"
+  },
+  {
     "name": "Ticker Tracker",
-    "description": "A platform where users can aggregate all of their investments into one location.",
+    "date": "2021",
+    "description": "A platform where users can aggregate all of their investments into one location. Ticker Tracker has over 650 registered users and was built with React, Firebase, and Yahoo Finance for financial data.",
     "link": "https://tickertracker.co"
   }
 ]
