@@ -25,37 +25,33 @@ const posts = (await getCollection("blog")).sort((a, b) =>
   </p>
   <section class="mt-8">
     <h2 class="mb-2 text-2xl font-semibold">Work</h2>
-    <div class="flex flex-col gap-3 sm:grid-cols-2">
-      {
-        works.map((work) => (
-          <a href={work.link} target="_blank" class="group block">
-            <article class="group-hover:border-blue-300 rounded-md border px-4 pb-3 pt-2">
-              <h3 class="group-hover:text-blue-500 group-hover:underline">
-                {work.name} ({work.time})
-              </h3>
-              <p class="text-sm text-zinc-500">{work.description}</p>
-            </article>
-          </a>
-        ))
-      }
-    </div>
+    {
+      works.map((work) => (
+        <a href={work.link} target="_blank" class="mb-3 group block">
+          <article class="group-hover:border-blue-300 rounded-md border px-4 pb-3 pt-2">
+            <h3 class="group-hover:text-blue-500 group-hover:underline">
+              {work.name} ({work.time})
+            </h3>
+            <p class="text-sm text-zinc-500">{work.description}</p>
+          </article>
+        </a>
+      ))
+    }
   </section>
   <section class="mt-8">
     <h2 class="mb-2 text-2xl font-semibold">Projects</h2>
-    <div class="flex flex-col gap-3 sm:grid-cols-2">
-      {
-        projects.map((project) => (
-          <a href={project.link} target="_blank" class="group block">
-            <article class="group-hover:border-blue-300 rounded-md border px-4 pb-3 pt-2">
-              <h3 class="group-hover:text-blue-500 group-hover:underline">
-                {project.name} ({project.date})
-              </h3>
-              <p class="text-sm text-zinc-500">{project.description}</p>
-            </article>
-          </a>
-        ))
-      }
-    </div>
+    {
+      projects.map((project) => (
+        <a href={project.link} target="_blank" class="mb-3 group block">
+          <article class="group-hover:border-blue-300 rounded-md border px-4 pb-3 pt-2">
+            <h3 class="group-hover:text-blue-500 group-hover:underline">
+              {project.name} ({project.date})
+            </h3>
+            <p class="text-sm text-zinc-500">{project.description}</p>
+          </article>
+        </a>
+      ))
+    }
   </section>
   <section class="mt-12">
     <h2 class="mb-4 text-2xl font-semibold">Blog</h2>
