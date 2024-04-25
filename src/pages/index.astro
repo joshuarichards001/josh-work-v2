@@ -25,7 +25,7 @@ const posts = (await getCollection("blog")).sort((a, b) =>
   </p>
   <section class="mt-8">
     <h2 class="mb-2 text-2xl font-semibold">Work</h2>
-    <div class="grid grid-cols-1 gap-3 sm:grid-cols-2">
+    <div class="flex flex-col gap-3 sm:grid-cols-2">
       {
         works.map((work) => (
           <a href={work.link} target="_blank" class="group block">
@@ -42,7 +42,7 @@ const posts = (await getCollection("blog")).sort((a, b) =>
   </section>
   <section class="mt-8">
     <h2 class="mb-2 text-2xl font-semibold">Projects</h2>
-    <div class="grid grid-cols-1 gap-3 sm:grid-cols-2">
+    <div class="flex flex-col gap-3 sm:grid-cols-2">
       {
         projects.map((project) => (
           <a href={project.link} target="_blank" class="group block">
