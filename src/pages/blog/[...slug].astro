@@ -43,16 +43,16 @@ const { Content } = await post.render();
     @apply mt-4 list-disc list-inside;
   }
   :global(#md a) {
-    @apply text-blue-500 underline hover:text-black;
+    @apply text-blue-400 underline hover:text-zinc-100;
   }
   :global(#md > p) {
     @apply mt-4;
   }
   :global(#md .astro-code) {
-    @apply !bg-zinc-100 mt-4 overflow-scroll rounded-lg px-4 py-3 !leading-tight;
+    @apply !bg-zinc-800 mt-4 overflow-scroll rounded-lg px-4 py-3 !leading-tight;
     scrollbar-width: none;
   }
   :global(#md .astro-code span) {
-    @apply !text-sm !text-zinc-600;
+    @apply !text-sm !text-zinc-300;
   }
 </style>
