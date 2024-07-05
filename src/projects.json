@@ -17,10 +17,9 @@
     "link": "https://albumlistenlist.com",
     "redditPost": "https://www.reddit.com/r/truespotify/comments/18omr84/i_built_a_website_to_keep_track_of_all_the_albums/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button",
     "stats": [
-      { "name": "active users / mo", "value": "+90" },
-      { "name": "visitors / mo", "value": "+700" },
       { "name": "registered users", "value": "+600" },
-      { "name": "reddit upvotes", "value": "+30" }
+      { "name": "visitors / mo", "value": "+700" },
+      { "name": "active users / mo", "value": "+90" }
     ]
   },
   {
@@ -30,8 +29,8 @@
     "link": "https://tickertracker.co",
     "redditPost": "https://www.reddit.com/r/PersonalFinanceNZ/comments/nfys7y/tracking_your_whole_portfolio_made_easier/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button",
     "stats": [
-      { "name": "reddit upvotes", "value": "+140" },
-      { "name": "registered users", "value": "+740" }
+      { "name": "registered users", "value": "+740" },
+      { "name": "reddit upvotes", "value": "+140" }
     ]
   }
 ]
