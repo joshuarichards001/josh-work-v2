@@ -28,24 +28,31 @@ const posts = (await getCollection("blog")).sort((a, b) =>
     <h2 class="mb-2 text-2xl font-semibold">Work</h2>
     {
       works.map((work) => (
-        <a href={work.link} target="_blank" class="mb-3 group block">
-          <article class="group-hover:border-blue-300 rounded-md border border-zinc-700 px-4 pb-4 pt-2">
-            <div class="flex items-center gap-1">
-              <h3 class="group-hover:text-blue-400 group-hover:underline">
-                {work.name} ({work.time})
-              </h3>
+        <article class="rounded-md border border-zinc-700 px-4 pb-4 pt-2 mb-3">
+          <div class="flex justify-between mb-2">
+            <h3>
+              {work.name} ({work.time})
+            </h3>
+            <div class="group flex items-center gap-[2px]">
+              <a
+                href={work.link}
+                target="_blank"
+                class="group-hover:text-blue-400 group-hover:underline"
+              >
+                Website
+              </a>
               <LinkIcon />
             </div>
-            <p class="text-sm text-zinc-400 mb-4">{work.description}</p>
-            <div class="flex gap-2 flex-wrap">
-              {work.skills.map((skill) => (
-                <span class="text-xs bg-zinc-800 text-zinc-400 rounded-full px-2 py-1">
-                  {skill.toUpperCase()}
-                </span>
-              ))}
-            </div>
-          </article>
-        </a>
+          </div>
+          <p class="text-sm text-zinc-400 mb-4">{work.description}</p>
+          <div class="flex gap-2 flex-wrap">
+            {work.skills.map((skill) => (
+              <span class="text-xs bg-zinc-800 text-zinc-400 rounded-full px-2 py-1">
+                {skill.toUpperCase()}
+              </span>
+            ))}
+          </div>
+        </article>
       ))
     }
   </section>
@@ -53,27 +60,46 @@ const posts = (await getCollection("blog")).sort((a, b) =>
     <h2 class="mb-2 text-2xl font-semibold">Projects</h2>
     {
       projects.map((project) => (
-        <a href={project.link} target="_blank" class="mb-3 group block">
-          <article class="group-hover:border-blue-300 rounded-md border border-zinc-700 px-4 pb-4 pt-2">
-            <div class="flex items-center gap-1">
-              <h3 class="group-hover:text-blue-400 group-hover:underline">
-                {project.name} ({project.date})
-              </h3>
-              <LinkIcon />
+        <article class="rounded-md border border-zinc-700 px-4 pb-4 pt-2 mb-3">
+          <div class="flex justify-between mb-2">
+            <h3>
+              {project.name} ({project.date})
+            </h3>
+            <div class="flex gap-6">
+              <div class="group flex items-center gap-[2px]">
+                <a
+                  href={project.link}
+                  target="_blank"
+                  class="group-hover:text-blue-400 group-hover:underline"
+                >
+                  Website
+                </a>
+                <LinkIcon />
+              </div>
+              <div class="group flex items-center gap-[2px]">
+                <a
+                  href={project.redditPost}
+                  target="_blank"
+                  class="group-hover:text-blue-400 group-hover:underline"
+                >
+                  Reddit Post
+                </a>
+                <LinkIcon />
+              </div>
             </div>
-            <p class="text-sm text-zinc-400 mb-4">{project.description}</p>
-            <div class="flex gap-2 flex-wrap">
-              {project.stats.map((stat) => (
-                <div class="flex flex-col bg-zinc-800 rounded-md px-2 py-1">
-                  <span class="text-xs text-zinc-400">
-                    {stat.name.toUpperCase()}
-                  </span>
-                  <span class="text-zinc-300">{stat.value}</span>
-                </div>
-              ))}
-            </div>
-          </article>
-        </a>
+          </div>
+          <p class="text-sm text-zinc-400 mb-4">{project.description}</p>
+          <div class="flex gap-2 flex-wrap">
+            {project.stats.map((stat) => (
+              <div class="flex flex-col bg-zinc-800 rounded-md px-2 py-1">
+                <span class="text-xs text-zinc-400">
+                  {stat.name.toUpperCase()}
+                </span>
+                <span class="text-zinc-300">{stat.value}</span>
+              </div>
+            ))}
+          </div>
+        </article>
       ))
     }
   </section>
