@@ -1,0 +1,19 @@
+---
+import LinkIcon from "./LinkIcon.astro";
+
+interface Props {
+  name: string;
+  link: string;
+}
+---
+
+<div class="flex group border px-2 rounded-full border-zinc-500 hover:border-blue-400">
+  <a
+    href={Astro.props.link}
+    target="_blank"
+    class="flex items-center gap-[2px] group-hover:text-blue-400 group-hover:underline text-sm"
+  >
+    {Astro.props.name}
+    <LinkIcon />
+  </a>
+</div>
