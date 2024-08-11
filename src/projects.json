@@ -5,6 +5,7 @@
     "description": "An app where users can learn to play various chords and scales using a virtual piano. Piano Theory was built with React, Tailwind, and Redux. It also uses Sentry for error tracking and leverages the Web Audio API for piano sounds.",
     "link": "https://pianotheory.app",
     "redditPost": "https://www.reddit.com/r/piano/comments/1dkk1u2/i_built_a_website_to_help_you_learn_music_theory/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button",
+    "githubLink": "https://github.com/joshuarichards001/piano-theory",
     "stats": [
       { "name": "visitors / mo", "value": "+500" },
       { "name": "reddit upvotes", "value": "+120" }
