@@ -1,5 +1,15 @@
 [
   {
+    "name": "Ten Thousand Pixels",
+    "date": "2024",
+    "description": "A real-time collaborative pixel art canvas where users can draw pixels and see live updates. Ten Thousand Pixels was built with HTML5 Canvas, JavaScript, Go, and Redis. It also uses WebSockets for real-time communication.",
+    "link": "https://tenthousandpixels.com",
+    "githubLink": "https://github.com/joshuarichards001/pixels",
+    "stats": [
+      { "name": "visitors", "value": "30+" }
+    ]
+  },
+  {
     "name": "Piano Theory",
     "date": "2024",
     "description": "An app where users can learn to play various chords and scales using a virtual piano. Piano Theory was built with React, Tailwind, and Redux. It also uses Sentry for error tracking and leverages the Web Audio API for piano sounds.",

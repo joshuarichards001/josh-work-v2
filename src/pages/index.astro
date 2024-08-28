@@ -58,7 +58,9 @@ const posts = (await getCollection("blog")).sort((a, b) =>
             </h3>
             <div class="flex gap-2">
               <ChipLink link={project.link} name="Website" />
-              <ChipLink link={project.redditPost} name="Reddit Post" />
+              {project.redditPost && (
+                <ChipLink link={project.redditPost} name="Reddit Post" />
+              )}
               {project.githubLink && (
                 <ChipLink link={project.githubLink} name="GitHub" />
               )}
