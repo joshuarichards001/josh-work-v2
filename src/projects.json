@@ -2,16 +2,19 @@
   {
     "name": "Ten Thousand Pixels",
     "date": "2024",
+    "screenshot": "../content/tenthousandpixels-screenshot.png",
     "description": "A real-time collaborative pixel art canvas where users can draw pixels and see live updates. Ten Thousand Pixels was built with HTML5 Canvas, JavaScript, Go, and Redis. It also uses WebSockets for real-time communication.",
     "link": "https://tenthousandpixels.com",
     "githubLink": "https://github.com/joshuarichards001/pixels",
     "stats": [
-      { "name": "visitors", "value": "30+" }
+      { "name": "visitors", "value": "100+" },
+      { "name": "pixels placed", "value": "8000+" }
     ]
   },
   {
     "name": "Piano Theory",
     "date": "2024",
+    "screenshot": "../content/pianotheory-screenshot.png",
     "description": "An app where users can learn to play various chords and scales using a virtual piano. Piano Theory was built with React, Tailwind, and Redux. It also uses Sentry for error tracking and leverages the Web Audio API for piano sounds.",
     "link": "https://pianotheory.app",
     "redditPost": "https://www.reddit.com/r/piano/comments/1dkk1u2/i_built_a_website_to_help_you_learn_music_theory/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button",
@@ -24,19 +27,20 @@
   {
     "name": "Album Listen List",
     "date": "2023",
-    "description": "A place for users to aggregate all of the Spotify albums they plan to listen to, rate their favourites, and share their list with friends. Album Listen List was built using React, Firebase, and Spotify Auth. It also integrates Sentry for error tracking and Mixpanel to understand user behavior.",
+    "screenshot": "../content/albumlistenlist-screenshot.png",
+    "description": "A place for users to aggregate all of the Spotify albums they plan to listen to, rate their favourites, and share their list with friends. Album Listen List was built using React, Firebase, Spotify Auth, Sentry for error tracking and Mixpanel to understand user behavior.",
     "link": "https://albumlistenlist.com",
     "redditPost": "https://www.reddit.com/r/truespotify/comments/18omr84/i_built_a_website_to_keep_track_of_all_the_albums/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button",
     "stats": [
       { "name": "registered users", "value": "+600" },
       { "name": "visitors / mo", "value": "+700" },
-      { "name": "active users / mo", "value": "+90" },
       { "name": "mixpanel events", "value": "+50,000" }
     ]
   },
   {
     "name": "Ticker Tracker",
     "date": "2021",
+    "screenshot": "../content/tickertracker-screenshot.png",
     "description": "A platform where users can aggregate all of their investments into one location. Ticker Tracker was built with React, Firebase, and Yahoo Finance for financial data.",
     "link": "https://tickertracker.co",
     "redditPost": "https://www.reddit.com/r/PersonalFinanceNZ/comments/nfys7y/tracking_your_whole_portfolio_made_easier/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button",
