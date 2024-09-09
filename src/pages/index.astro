@@ -66,13 +66,9 @@ const posts = (await getCollection("blog")).sort((a, b) =>
               {project.name} ({project.date})
             </h3>
             <div class="flex gap-2">
-              <ChipLink link={project.link} name="Website" />
-              {project.redditPost && (
-                <ChipLink link={project.redditPost} name="Reddit Post" />
-              )}
-              {project.githubLink && (
-                <ChipLink link={project.githubLink} name="GitHub" />
-              )}
+              {project.links.map((link) => (
+                <ChipLink link={link.url} name={link.name} />
+              ))}
             </div>
           </div>
           <div class="flex flex-col sm:flex-row items-start gap-4">
