@@ -67,7 +67,7 @@
     "screenshot": "../content/tickertracker-screenshot.png",
     "description": "A platform where users can aggregate all of their investments into one location. Ticker Tracker was built with React, Firebase, and Yahoo Finance for financial data.",
     "links": [
-      { "name": "Website", "url": "https://tickertracker.co" },
+      { "name": "Website", "url": "https://tickertracker.netlify.app" },
       {
         "name": "Reddit Post",
         "url": "https://www.reddit.com/r/PersonalFinanceNZ/comments/nfys7y/tracking_your_whole_portfolio_made_easier"
