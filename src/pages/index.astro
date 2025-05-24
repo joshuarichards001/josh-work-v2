@@ -40,18 +40,18 @@ const posts = (await getCollection("blog")).sort((a, b) =>
       {
         works.map((work) => (
           <article class="pl-4 pb-4 mb-3 border-b-2 last:border-b-0 border-zinc-700">
-            <div class="flex flex-wrap mb-2 gap-2">
+            <div class="flex items-center mb-2 gap-2">
               <Image
                 src={images[work.logo]()}
                 alt={`Screenshot of ${work.name}`}
                 width={50}
                 height={50}
-                class="rounded-md w-6"
+                class="rounded-md w-8"
               />
               <h3 class="text-lg">
                 {work.title} @ {work.name} ({work.time})
+                {work.link && <ChipLink link={work.link} name="Website" />}
               </h3>
-              {work.link && <ChipLink link={work.link} name="Website" />}
             </div>
             <p class="text-sm text-zinc-400 mb-4">{work.description}</p>
             <div class="flex gap-2 flex-wrap">
