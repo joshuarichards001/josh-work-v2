@@ -16,20 +16,6 @@
     ]
   },
   {
-    "name": "Hedges",
-    "time": "2021 - 2022",
-    "description": "The technical co-founder for a financial portfolio management mobile app. Hedges was envisioned to help users track their investments and net worth. I was responsible for building the mobile app and backend services from scratch.",
-    "blog": "/blog/hedges",
-    "skills": [
-      "React Native",
-      "TypeScript",
-      "Node.js",
-      "Express",
-      "PostgreSQL",
-      "Stock Market APIs"
-    ]
-  },
-  {
     "name": "CR Automation",
     "time": "2018 - 2020",
     "description": "An Engineering Intern at the automation engineering firm CR Automation. I was tasked with building a business intelligence agent that would send and receive data from multiple sources concurrently.",
