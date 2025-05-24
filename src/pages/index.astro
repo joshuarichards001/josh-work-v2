@@ -1,27 +1,31 @@
 ---
 import { Image } from "astro:assets";
+import { getCollection } from "astro:content";
 
 import ChipLink from "../components/ChipLink.astro";
 import Layout from "../components/Layout.astro";
+import LocationIcon from "../icons/LocationIcon.astro";
 
 import projects from "../projects.json";
 import works from "../works.json";
 
-import { getCollection } from "astro:content";
-
 const images = import.meta.glob<{ default: ImageMetadata }>(
-  "../content/*.{png,jpg,jpeg,gif}",
+  "../content/*.{png,jpg,jpeg,gif,svg}"
 );
 
 const posts = (await getCollection("blog")).sort((a, b) =>
-  a.data.date < b.data.date ? 1 : -1,
+  a.data.date < b.data.date ? 1 : -1
 );
 ---
 
 <Layout title="Josh Richards" description="Josh Richards personal website">
   <h1 class="mb-3 text-3xl font-semibold">Hi, I'm Josh Richards</h1>
+  <div class="flex flex-row items-center gap-2 mb-4">
+    <LocationIcon />
+    <span class="text-sm text-zinc-400">Edinburgh, United Kingdom</span>
+  </div>
   <p class="mb-4">
-    I'm a Software Engineer at Xero where I help modernise the Invoicing
+    I'm a Software Engineer at Xero where I help build the Syft Analytics
     Platform. I also love to build simple web apps to solve everyday problems.
   </p>
   <p>
@@ -37,11 +41,17 @@ const posts = (await getCollection("blog")).sort((a, b) =>
         works.map((work) => (
           <article class="pl-4 pb-4 mb-3 border-b-2 last:border-b-0 border-zinc-700">
             <div class="flex flex-wrap mb-2 gap-2">
+              <Image
+                src={images[work.logo]()}
+                alt={`Screenshot of ${work.name}`}
+                width={50}
+                height={50}
+                class="rounded-md w-6"
+              />
               <h3 class="text-lg">
-                {work.name} ({work.time})
+                {work.title} @ {work.name} ({work.time})
               </h3>
               {work.link && <ChipLink link={work.link} name="Website" />}
-              {work.blog && <ChipLink link={work.blog} name="Blog" />}
             </div>
             <p class="text-sm text-zinc-400 mb-4">{work.description}</p>
             <div class="flex gap-2 flex-wrap">

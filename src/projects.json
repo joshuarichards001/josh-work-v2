@@ -18,7 +18,7 @@
     "stats": [
       { "name": "visitors", "value": "+20,000" },
       { "name": "pixels placed", "value": "+4,000,000" },
-      { "name": "github stars", "value": "+90" },
+      { "name": "github stars", "value": "+100" },
       { "name": "reddit upvotes", "value": "+350" }
     ]
   },
@@ -56,9 +56,8 @@
       }
     ],
     "stats": [
-      { "name": "registered users", "value": "+600" },
-      { "name": "visitors / mo", "value": "+700" },
-      { "name": "mixpanel events", "value": "+50,000" }
+      { "name": "registered users", "value": "+1300" },
+      { "name": "visitors / mo", "value": "+700" }
     ]
   },
   {

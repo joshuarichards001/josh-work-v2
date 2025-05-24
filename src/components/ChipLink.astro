@@ -1,5 +1,5 @@
 ---
-import LinkIcon from "./LinkIcon.astro";
+import LinkIcon from "../icons/LinkIcon.astro";
 
 interface Props {
   name: string;
@@ -7,7 +7,9 @@ interface Props {
 }
 ---
 
-<div class="flex group border px-2 rounded-full border-zinc-500 hover:border-blue-400">
+<div
+  class="flex group border px-2 rounded-full border-zinc-500 hover:border-blue-400"
+>
   <a
     href={Astro.props.link}
     target="_blank"

@@ -1,22 +1,26 @@
 [
   {
     "name": "Xero",
+    "title": "Software Engineer",
+    "logo": "../content/xero-logo.svg",
     "time": "2020 - Present",
-    "description": "A Software Engineer at the cloud accounting company Xero. I develop full stack, secure, scalable code that powers the Invoicing platform. Our mission is to help the millions of small business Xero customers get paid.",
+    "description": "An experienced Software Engineer at the cloud accounting company Xero. I develop full stack, secure, scalable code that powers the Syft Analytics platform.",
     "link": "https://www.xero.com",
     "skills": [
       "React",
       "TypeScript",
-      "Redux",
+      "Node.js",
       "C#",
       "ASP.NET",
       "AWS",
-      "Git",
-      "GitHub Actions"
+      "PostgreSQL",
+      "GitHub"
     ]
   },
   {
     "name": "CR Automation",
+    "title": "Intern Engineer",
+    "logo": "../content/cr-logo.jpg",
     "time": "2018 - 2020",
     "description": "An Engineering Intern at the automation engineering firm CR Automation. I was tasked with building a business intelligence agent that would send and receive data from multiple sources concurrently.",
     "link": "https://www.crautomation.nz",
