@@ -2,5 +2,6 @@
   "buildCommand": "pnpm build",
   "outputDirectory": "apps/web/.vercel/output",
   "installCommand": "pnpm install",
-  "framework": "astro"
+  "framework": "astro",
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
