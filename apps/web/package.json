@@ -3,9 +3,10 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro check && astro build",
+    "copy-assets": "cp -r ../Splash/public/cubemap public/",
+    "dev": "pnpm copy-assets && astro dev",
+    "start": "pnpm copy-assets && astro dev",
+    "build": "pnpm copy-assets && astro check && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
@@ -21,5 +22,8 @@
     "tailwindcss": "^3.4.3",
     "test-app": "workspace:*",
     "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "vite-plugin-glsl": "^1.5.4"
   }
 }

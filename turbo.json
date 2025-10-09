@@ -9,6 +9,10 @@
     "dev": {
       "cache": false,
       "persistent": true
+    },
+    "copy-assets": {
+      "inputs": ["../Splash/public/**"],
+      "outputs": ["public/cubemap/**"]
     }
   }
 }

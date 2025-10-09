@@ -123,6 +123,10 @@ importers:
       typescript:
         specifier: ^5.4.5
         version: 5.9.3
+    devDependencies:
+      vite-plugin-glsl:
+        specifier: ^1.5.4
+        version: 1.5.4(@rollup/pluginutils@5.3.0(rollup@4.52.4))(esbuild@0.25.10)(vite@6.3.6(@types/node@24.7.0)(jiti@1.21.7)(lightningcss@1.30.2)(yaml@2.8.1))
 
 packages:
 
@@ -6311,6 +6315,13 @@ snapshots:
     dependencies:
       '@types/unist': 3.0.3
       vfile-message: 4.0.3
+
+  vite-plugin-glsl@1.5.4(@rollup/pluginutils@5.3.0(rollup@4.52.4))(esbuild@0.25.10)(vite@6.3.6(@types/node@24.7.0)(jiti@1.21.7)(lightningcss@1.30.2)(yaml@2.8.1)):
+    dependencies:
+      vite: 6.3.6(@types/node@24.7.0)(jiti@1.21.7)(lightningcss@1.30.2)(yaml@2.8.1)
+    optionalDependencies:
+      '@rollup/pluginutils': 5.3.0(rollup@4.52.4)
+      esbuild: 0.25.10
 
   vite-plugin-glsl@1.5.4(@rollup/pluginutils@5.3.0(rollup@4.52.4))(esbuild@0.25.10)(vite@6.3.6(@types/node@24.7.0)(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.8.1)):
     dependencies:
