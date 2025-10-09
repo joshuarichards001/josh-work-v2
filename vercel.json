@@ -1,7 +1,11 @@
 {
-  "buildCommand": "pnpm build",
+  "buildCommand": "pnpm run build --filter=web",
   "outputDirectory": "apps/web/.vercel/output",
   "installCommand": "pnpm install",
-  "framework": "astro",
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+  "framework": null,
+  "routes": [
+    {
+      "handle": "filesystem"
+    }
+  ]
 }
