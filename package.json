@@ -1,19 +1,17 @@
 {
   "name": "josh-work",
-  "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro check && astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "dev": "turbo dev",
+    "build": "turbo build"
   },
-  "dependencies": {
-    "@astrojs/check": "^0.5.10",
-    "@astrojs/tailwind": "^5.1.0",
-    "astro": "^4.6.3",
-    "tailwindcss": "^3.4.3",
-    "typescript": "^5.4.5"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.18.1",
+  "devDependencies": {
+    "turbo": "^2.5.8"
   }
 }
