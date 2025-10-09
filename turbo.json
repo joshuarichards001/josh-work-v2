@@ -6,10 +6,6 @@
       "dependsOn": ["^build"],
       "outputs": ["dist/**", ".astro/**"]
     },
-    "web#build": {
-      "dependsOn": ["splash#build", "test-app#build", "waterball#build"],
-      "outputs": ["dist/**", ".astro/**"]
-    },
     "dev": {
       "cache": false,
       "persistent": true
