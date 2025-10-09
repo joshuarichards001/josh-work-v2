@@ -7,7 +7,7 @@
       "outputs": ["dist/**", ".astro/**"]
     },
     "web#build": {
-      "dependsOn": ["splash#build", "test-app#build", "water-ball#build"],
+      "dependsOn": ["splash#build", "test-app#build", "waterball#build"],
       "outputs": ["dist/**", ".astro/**"]
     },
     "dev": {

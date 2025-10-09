@@ -141,7 +141,7 @@ importers:
       typescript:
         specifier: ^5.4.5
         version: 5.9.3
-      water-ball:
+      waterball:
         specifier: workspace:*
         version: link:../WaterBall
     devDependencies:
