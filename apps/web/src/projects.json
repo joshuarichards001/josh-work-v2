@@ -5,7 +5,7 @@
     "screenshot": "../content/tenthousandpixels-screenshot.png",
     "description": "A real-time collaborative pixel art canvas where users can draw pixels and see live updates. Ten Thousand Pixels was built with HTML5 Canvas, JavaScript, Go, and Redis. It also uses WebSockets for real-time communication.",
     "links": [
-      { "name": "Website", "url": "https://tenthousandpixels.com" },
+      { "name": "Website", "url": "https://tenthousandpixels.vercel.app/" },
       {
         "name": "Github",
         "url": "https://github.com/joshuarichards001/pixels"
