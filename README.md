@@ -7,6 +7,6 @@ To set up this code locally run the following scripts in your terminal in your d
 ```bash
 git clone https://github.com/joshuarichards001/josh-work-v2.git
 cd josh-work-v2
-pnpm install
-pnpm --filter=web dev
+npm install
+npm run dev
 ```
