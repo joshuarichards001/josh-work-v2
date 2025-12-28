@@ -1,15 +1,30 @@
 [
   {
     "name": "Xero",
-    "title": "Software Engineer",
+    "title": "Analytics - Software Engineer",
     "logo": "../content/xero-logo.svg",
-    "time": "2020 - Present",
-    "description": "An experienced Software Engineer at the cloud accounting company Xero. I develop full stack, secure, scalable code that powers the Xero Analytics platform.",
+    "time": "2025 - Present",
+    "description": "Sole pre-existing Xero engineer in the newly formed UK Analytics team, contributing to the integration of Syft Analytics into Xero. Instrumental in establishing an engineering culture aligned with Xero's global standards.",
     "link": "https://www.xero.com",
     "skills": [
       "React",
       "TypeScript",
       "Node.js",
+      "GCP",
+      "PostgreSQL",
+      "GitHub"
+    ]
+  },
+  {
+    "name": "Xero",
+    "title": "Invoicing - Software Engineer",
+    "logo": "../content/xero-logo.svg",
+    "time": "2020 - 2025",
+    "description": "Core contributor to the modernized Invoicing platform, driving the migration of over 1 million businesses. Developed secure, scalable full-stack solutions using React, and .NET. Focused on modernizing legacy systems and maintaining high standards of code quality and performance.",
+    "link": "https://www.xero.com",
+    "skills": [
+      "React",
+      "TypeScript",
       "C#",
       "ASP.NET",
       "AWS",
@@ -24,6 +39,10 @@
     "time": "2018 - 2020",
     "description": "An Engineering Intern at the automation engineering firm CR Automation. I was tasked with building a business intelligence agent that would send and receive data from multiple sources concurrently.",
     "link": "https://www.crautomation.nz",
-    "skills": ["C#", ".NET", "SQL Server"]
+    "skills": [
+      "C#",
+      ".NET",
+      "SQL Server"
+    ]
   }
 ]
