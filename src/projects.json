@@ -1,5 +1,27 @@
 [
   {
+    "name": "Bear Roll",
+    "date": "2026",
+    "screenshot": "../content/bearroll-screenshot.png",
+    "description": "A daily view of Bear Blog's top trending posts, scraped hourly. Bear Roll was built with Astro, with automated data collection via GitHub Actions and static deployment to Cloudflare Pages.",
+    "links": [
+      { "name": "Website", "url": "https://bearroll.dev" },
+      {
+        "name": "Github",
+        "url": "https://github.com/joshuarichards001/bearroll"
+      },
+      {
+        "name": "Bear Blog Post",
+        "url": "https://bearroll.bearblog.dev/daily-view-of-bear-blog-top-posts/"
+      }
+    ],
+    "stats": [
+      { "name": "bearblog", "value": "1st on trending" },
+      { "name": "unique visitors", "value": "+1000" },
+      { "name": "bearblog toasts", "value": "+80" }
+    ]
+  },
+  {
     "name": "Ten Thousand Pixels",
     "date": "2024",
     "screenshot": "../content/tenthousandpixels-screenshot.png",
@@ -57,7 +79,8 @@
     ],
     "stats": [
       { "name": "registered users", "value": "+1300" },
-      { "name": "visitors / mo", "value": "+700" }
+      { "name": "visitors / mo", "value": "+1000" },
+      { "name": "search clicks / mo", "value": "+125" }
     ]
   },
   {

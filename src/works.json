@@ -1,23 +1,23 @@
 [
   {
     "name": "Xero",
-    "title": "Analytics - Software Engineer",
+    "title": "Software Engineer in Analytics",
     "logo": "../content/xero-logo.svg",
     "time": "2025 - Present",
     "description": "Sole pre-existing Xero engineer in the newly formed UK Analytics team, formed for the integration of Syft Analytics into Xero post acquisition. Instrumental in establishing an engineering culture aligned with Xero's global standards.",
     "link": "https://www.xero.com",
     "skills": [
-      "React",
-      "TypeScript",
       "Node.js",
+      "TypeScript",
       "GCP",
       "PostgreSQL",
-      "GitHub"
+      "GitHub",
+      "New Relic"
     ]
   },
   {
     "name": "Xero",
-    "title": "Invoicing - Software Engineer",
+    "title": "Software Engineer in Invoicing",
     "logo": "../content/xero-logo.svg",
     "time": "2020 - 2025",
     "description": "Core contributor to the modernized Invoicing platform, driving the migration of over 1 million businesses. Developed secure, scalable full-stack solutions using React, and .NET. Focused on modernizing legacy systems and maintaining high standards of code quality and performance.",
