@@ -1,5 +1,26 @@
 [
   {
+    "name": "Fameboxd",
+    "date": "2026",
+    "screenshot": "../content/fameboxd-screenshot.png",
+    "description": "A hand-curated directory of celebrities with public Letterboxd accounts, showing what each of them watched most recently. Fameboxd was built with Astro and Tailwind, rendering entirely at build time, with scripts that refresh each person's latest activity and follower count from Letterboxd.",
+    "links": [
+      { "name": "Website", "url": "https://fameboxd.com" },
+      {
+        "name": "Github",
+        "url": "https://github.com/joshuarichards001/famous-letterboxd"
+      },
+      {
+        "name": "Reddit Post",
+        "url": "https://www.reddit.com/r/Letterboxd/comments/1viuk5r/list_of_130_well_known_directors_actors_and/"
+      }
+    ],
+    "stats": [
+      { "name": "unique visitors", "value": "+1000" },
+      { "name": "reddit upvotes", "value": "+80" }
+    ]
+  },
+  {
     "name": "Bear Roll",
     "date": "2026",
     "screenshot": "../content/bearroll-screenshot.png",
