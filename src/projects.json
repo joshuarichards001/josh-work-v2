@@ -16,8 +16,8 @@
       }
     ],
     "stats": [
-      { "name": "unique visitors", "value": "+1000" },
-      { "name": "reddit upvotes", "value": "+80" }
+      { "name": "unique visitors", "value": "+3000" },
+      { "name": "reddit upvotes", "value": "+100" }
     ]
   },
   {
@@ -88,9 +88,9 @@
   },
   {
     "name": "Album Listen List",
-    "date": "2023",
+    "date": "2022 - Present",
     "screenshot": "../content/albumlistenlist-screenshot.png",
-    "description": "A place for users to aggregate all of the Spotify albums they plan to listen to, rate their favourites, and share their list with friends. Album Listen List was built using React, Firebase, Spotify Auth, Sentry for error tracking and Mixpanel to understand user behavior.",
+    "description": "A place to keep track of the Spotify albums you plan to listen to, rate them, and share your lists. Live since December 2022, it is the longest running thing I have shipped, now holding a shared catalogue of over 30,000 albums and 62,000 list entries. Album Listen List was built with React, TypeScript, Supabase, Zustand, Tailwind, and Sentry for error tracking.",
     "links": [
       { "name": "Website", "url": "https://albumlistenlist.com" },
       {
@@ -99,9 +99,9 @@
       }
     ],
     "stats": [
-      { "name": "registered users", "value": "+1300" },
-      { "name": "visitors / mo", "value": "+1000" },
-      { "name": "search clicks / mo", "value": "+125" }
+      { "name": "unique visitors / yr", "value": "+11,000" },
+      { "name": "albums tracked", "value": "+30,000" },
+      { "name": "list entries", "value": "+62,000" }
     ]
   },
   {
